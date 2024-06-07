@@ -1,0 +1,78 @@
+.user-list {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .user-list h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+    .user-card {
+      background-color: rgb(231, 231, 231);
+      color: black;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      width: 250px;
+      text-align: left;
+      }
+  
+  .user-card h3 {
+    margin: 10px 10px 10px 10px; 
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .user-card strong {
+    color: #333;
+  }
+  
+  .user-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  img {
+    width: 200px !important;
+    height: 200px !important; 
+    margin-top: 1rem;
+    margin: 0 auto;
+  }
+
+
+  button{
+    background-color: rgb(255, 61, 61);
+    border: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    max-width: 220px;
+    align-items: center+;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  input, select{
+    padding: 10px;
+  }
